@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:300|Playfair+Display:500&display=swap');
+
+.navbar-fixed-top{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+}
+.bg-black {
+    background-color: black;
+}
+
+.nav-hover:hover {
+    text-decoration: none;
+}
+

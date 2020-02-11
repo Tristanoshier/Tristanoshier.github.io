@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:500&display=swap');
+
+.header {
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.bg-image {
+    background: url(../assets/background5.jpeg) bottom;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title-position {
+    height: 65vh;
+}
+
+.title {
+    color: black;
+    font-size: 65px;
+    font-family: "Playfair Display", serif;
+    
+} 
+.occupation {
+    padding: 10px;
+    color: black;
+    font-size: 26px;
+    font-family: "Playfair Display", serif;
+}

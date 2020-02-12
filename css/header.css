@@ -23,17 +23,17 @@
     
 } 
 .occupation {
-    padding: 10px;
+    margin-left: 10px;
     color: black;
     font-size: 26px;
     font-family: "Playfair Display", serif;
 }
 
-.occupation-animation {
-    animation: type 3s steps(13);
+ .occupation-animation {
+    animation: type 1s steps(12);
     overflow: hidden;
     white-space: nowrap;
-    border-right: 4px solid black;
+    width: 12ch;
 }
 
 @keyframes type {
@@ -41,6 +41,6 @@
         width: 0ch;
     }
     100% {
-        width: 13ch;
+        width: 12ch;
     }
 }

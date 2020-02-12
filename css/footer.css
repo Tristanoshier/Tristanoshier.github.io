@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    background: rgb(235, 235, 235);
+    width: 100%;
+    color: black;
+}
+
+.footer-content {
+    text-align: center;
+
+}

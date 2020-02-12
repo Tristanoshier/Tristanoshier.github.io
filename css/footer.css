@@ -1,4 +1,4 @@
-footer{
+footer {
     display: flex;
     background: #ebebeb;
     width: 100vw;
@@ -18,9 +18,9 @@ footer{
 }
 
 .icon {
-   color: #6c757d;
+    color: #6c757d;
 }
 
-.icon:hover{
+.icon:hover {
     color: #494e53;
 }

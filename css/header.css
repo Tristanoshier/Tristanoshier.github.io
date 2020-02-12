@@ -20,8 +20,9 @@
     color: black;
     font-size: 65px;
     font-family: "Playfair Display", serif;
-    
-} 
+
+}
+
 .occupation {
     margin-left: 10px;
     color: black;
@@ -29,7 +30,7 @@
     font-family: "Playfair Display", serif;
 }
 
- .occupation-animation {
+.occupation-animation {
     animation: type 1s steps(12);
     overflow: hidden;
     white-space: nowrap;
@@ -40,6 +41,7 @@
     0% {
         width: 0ch;
     }
+
     100% {
         width: 12ch;
     }

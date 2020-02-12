@@ -1,11 +1,26 @@
 footer{
     display: flex;
-    background: rgb(235, 235, 235);
-    width: 100%;
+    background: #ebebeb;
+    width: 100vw;
     color: black;
 }
 
 .footer-content {
     text-align: center;
+}
 
+.footer-links {
+    margin: 5px;
+}
+
+.footer-container {
+    padding: 40px;
+}
+
+.icon {
+   color: #6c757d;
+}
+
+.icon:hover{
+    color: #494e53;
 }

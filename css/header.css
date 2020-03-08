@@ -46,3 +46,26 @@
         width: 12ch;
     }
 }
+
+@media (max-width: 576px) {
+    .title-position {
+        height: 50vh;
+    }
+    .occupation {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .title-position {
+        height: 60vh;
+    }
+}
+
+@media (max-width : 768px) {
+    .title-position {
+        height: 50vh;
+    }
+}
+
+

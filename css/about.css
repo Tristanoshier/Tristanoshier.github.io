@@ -7,3 +7,18 @@
     color: #6c757d;
     font-size: 22px;
 }
+
+.resume {
+    margin-left: 50%;
+}
+
+
+
+@media (max-width: 576px) {
+    .content-text {
+        font-size: 15px;
+    }
+    .resume {
+        margin-left: 46%; /* this looks more centered on mobile */
+    }
+}

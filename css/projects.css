@@ -19,3 +19,15 @@
     text-align: center;
     color: white;
 }
+
+@media (max-width: 576px) {
+    .project-bubble {
+        width: 100px;
+        height: 100px
+    }
+    .bubble-title {
+        padding-top: 40px;
+        font-size: 13px;
+    }
+
+}

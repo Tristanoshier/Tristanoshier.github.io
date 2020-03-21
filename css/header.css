@@ -31,10 +31,10 @@
 }
 
 .occupation-animation {
-    animation: type 1s steps(12);
+    animation: type 1s steps(14);
     overflow: hidden;
     white-space: nowrap;
-    width: 12ch;
+    width: 15ch;
 }
 
 @keyframes type {
@@ -43,7 +43,7 @@
     }
 
     100% {
-        width: 12ch;
+        width: 14ch;
     }
 }
 

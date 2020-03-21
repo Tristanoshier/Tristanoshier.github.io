@@ -1,33 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:500&display=swap');
 
-.project-bubble {
-    margin-top: 40px;
+.card-deck .card  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5em !important;
+}
+
+.card-body {
+    max-width: 500px;
+}
+
+.card-color {
     background-color: rgb(194, 182, 160);
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
 }
 
-.project-bubble:hover {
-    background-color: rgb(180, 167, 145);
+.card-title {
+    color: #6c757d;
 }
 
-.bubble-title {
-    font-family: "Playfair Display", serif;
-    font-size: 24px;
-    padding-top: 79px;
-    text-align: center;
+.card-text {
+    color: #6c757d;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-secondary{
+    color: #6c757d;
+    background-color: white;
+    border: 2px solid #6c757d;
+}
+
+.btn:hover {
     color: white;
 }
 
+.project-link {
+    color: #6c757d
+}
+
+.project-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
 @media (max-width: 576px) {
-    .project-bubble {
-        width: 100px;
-        height: 100px
-    }
-    .bubble-title {
-        padding-top: 40px;
-        font-size: 13px;
+    .card-body {
+        min-width: 343px;
     }
 
 }

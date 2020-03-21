@@ -48,10 +48,38 @@
 
 @media (max-width: 576px) {
     .card-body{
-        min-width: 343px;
+        min-width: 382px;
     }
     .card-deck .card  {
         margin-right: 0;
     } 
 
+}
+
+@media (max-width: 414px) {
+    .card-body{
+        min-width: 382px;
+    }
+    .card-deck .card  {
+        margin-right: 0;
+    } 
+}
+
+/* IPHONE X */
+@media (max-width: 375px) {
+    .card-body{
+        min-width: 343px;
+    }
+    .card-deck .card  {
+        margin-right: 0;
+    } 
+}
+
+@media (max-width: 360px) {
+    .card-body{
+        min-width: 329px;
+    }
+    .card-deck .card  {
+        margin-right: 0;
+    } 
 }

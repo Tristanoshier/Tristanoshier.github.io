@@ -47,8 +47,11 @@
 }
 
 @media (max-width: 576px) {
-    .card-body {
-        min-width: 100%;
+    .card-body{
+        min-width: 343px;
     }
+    .card-deck .card  {
+        margin-right: 0;
+    } 
 
 }

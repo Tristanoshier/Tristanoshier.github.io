@@ -4,6 +4,12 @@
     display: flex;
     flex-wrap: wrap;
     margin-right: 5em !important;
+    margin-left: 2.5em;
+}
+
+.third-card {
+    margin-top: 20px;
+    margin-left: 1.5em !important;
 }
 
 .card-body {
@@ -23,6 +29,11 @@
 }
 
 .project-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-container-third {
     display: flex;
     flex-wrap: wrap;
 }
@@ -52,7 +63,17 @@
     }
     .card-deck .card  {
         margin-right: 0;
-    } 
+        margin-left: 0;
+    }
+    .third-card {
+        margin-top: 0;
+        margin-left: 0 !important;
+    }
+    .project-container-third {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0 !important;
+    }
 
 }
 
@@ -62,6 +83,7 @@
     }
     .card-deck .card  {
         margin-right: 0;
+        margin-left: 0 !important;
     } 
 }
 
